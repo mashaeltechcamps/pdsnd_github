@@ -1,7 +1,7 @@
 import time
 import pandas as pd
 import numpy as np
-
+# add more city
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york': 'new_york_city.csv',
               'washington': 'washington.csv' }
@@ -26,6 +26,7 @@ def get_filters():
             print('\n_______________Alright, {} it is!________________'.format(city.title()))
 
 
+# add somechanges 
 
     user_filter =''
     while user_filter.lower() not in ['month','day','all']:
